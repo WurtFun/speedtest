@@ -43,6 +43,10 @@
     - 4: test finished. You can run it again by calling start() if you want.
  */
 
+var useServersJson = true;
+var serverListURL = "./servers.json";
+
+
 function Speedtest() {
   this._serverList = []; //when using multiple points of test, this is a list of test points
   this._selectedServer = null; //when using multiple points of test, this is the selected server
